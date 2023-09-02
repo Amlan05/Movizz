@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+  }
+/* Header */
+/* .header{
+    height: 10vh;
+} */
+.navbar{
+    position: sticky;
+}
+.brand-logo{
+    width: 5%;
+    margin-right: 12%;
+}
+.navbar-brand{
+    font-size:xx-large;
+}
+.d-flex{
+    width: 50%;
+}
+.navbar-nav{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.nav-item{
+    padding: 0 2%;
+}
+.img-fluid{
+    height: 60vh;
+}
+
+.card{
+    width: 18rem;
+    border-radius: 15px ;
+    border-color: rgb(143, 84, 12);
+    /* box-shadow: 10px 10px 20px #ccc; */
+}
+.card:hover{
+    box-shadow: 10px 10px 20px #ccc;
+    /* width: 25rem; */
+}
+.movie-col{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.movie-col{
+    margin: 25px 0;
+}
+.allMovies-btn{
+    margin: 20px 0;
+}
+.movie-col-all{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0 25px 0;
+}
+.movie-row-all{
+    padding: 25px 0;
+}
+.card-img-top{
+    height: 25vh;
+}
+.allmovi{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.AuthForm{
+    height: 90vh;
+    width: 100vw;  
+    background-image: url("https://t3.ftcdn.net/jpg/02/92/90/56/360_F_292905667_yFUJNJPngYeRNlrRL4hApHWxuYyRY4kN.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: grey;   */
+    opacity: 0.8;
+    /* background-color: blue; */
+}
+
+.auth-cont{
+    padding: 20px;
+   border: 2px solid blueviolet;
+   border-radius: 8px;
+   color: black;
+   background-color: wheat;
+   opacity: 0.9;
+}
+.lgn{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+.lgn-btn{
+    margin-bottom: 10px;
+}
+.nav-link{
+font-size: 20px;
+padding: auto;
+}
+.nav-link:hover{
+color: rgb(216, 41, 10);
+font-weight: 25px;
+}
+.upperH{
+    display: flex;
+    justify-content: space-around;
+}
+.cross{
+    margin-top: -3%;
+    position: relative;
+    left: 2.5%;
+}
+.lgn-cond{
+    display: flex;
+    justify-content: center;
+}
+.lgn-btn{
+    display: flex;
+    justify-content: center;
+}
+    
+/* Booking */
+
+.movie-title{
+    margin: 15px 0 ;
+}
+.movie-detail{
+    margin: 20px 0;
+}
+.movie-poster{
+    width: 80%;
+    height: 300px;
+    padding: 10px 0;
+}
+.movie-full-details{
+    padding: 10px 0;
+}
+.booking-form{
+    width: 70%;
+}
+
+/* user page */
+.user-container{
+    margin-top: 5%;
+}
+.user-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bi-person-circle{
+    margin-bottom: 20px;
+    font-size: 100px;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 10px 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.book-details{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: rgb(28, 28, 184);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+.book-heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* AddMoviepage */
+.add-movie-container{
+    width: 100vw;
+    min-height: 91.5vh;
+    background-image: url("https://img.freepik.com/free-photo/movie-background-collage_23-2149876028.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.add-movie-header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.add-movie-col{
+    margin: 5% 0;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: bisque;
+    opacity: 0.8;
+}
+.actor-input{
+    width: 50%;
+    margin-right:5px;
+}
+.actor-div{
+    display: flex;
+    width: 80%;
+    /* justify-content: center; */
+}
+.btn-outline-info{
+    margin-left: 5%;
+}
+    
